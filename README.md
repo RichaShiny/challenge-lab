@@ -8,6 +8,8 @@ Independent concept, not affiliated with Beast Industries. All 80,000 users and 
 
 ## Start here
 
+**Browser demo:** [Challenge Lab](https://richashiny.github.io/challenge-lab/) (available after the Pages workflow is enabled and deployed). See [publishing instructions](docs/publishing.md) for the one-time setup.
+
 Open `reports/decision-report.html` in a browser. It contains the result, confidence intervals, release gates, and a small local challenge interaction sketch. It works offline without a server.
 
 To reproduce from the project directory, using Python 3.10 or newer:

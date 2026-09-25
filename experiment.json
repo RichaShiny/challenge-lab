@@ -1,0 +1,15 @@
+{
+  "experiment_id": "fan_challenge_v1",
+  "seed": 42,
+  "users": 80000,
+  "baseline_d7": 0.20,
+  "mde_absolute": 0.015,
+  "alpha": 0.05,
+  "power": 0.80,
+  "srm_alpha": 0.001,
+  "margin_noninferiority_dollars": 0.10,
+  "error_noninferiority_absolute": 0.005,
+  "enrollment_days": 14,
+  "followup_days": 8,
+  "note": "Synthetic demonstration. Configuration locked before seeded generation; no real company data."
+}

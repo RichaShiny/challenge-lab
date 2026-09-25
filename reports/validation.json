@@ -1,0 +1,10 @@
+{
+  "python_version_tested": "3.13.2",
+  "unit_tests_passed": 6,
+  "database_integrity": "ok",
+  "assignments": 80000,
+  "events": 143514,
+  "unresolved_report_placeholders": 0,
+  "browser_visual_qa": "Not completed: local file URL blocked by browser security policy.",
+  "deployment": "Local files only; no cloud deployment or real-user telemetry."
+}

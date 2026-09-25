@@ -1,0 +1,105 @@
+{
+  "synthetic": true,
+  "experiment": {
+    "experiment_id": "fan_challenge_v1",
+    "seed": 42,
+    "users": 80000,
+    "baseline_d7": 0.2,
+    "mde_absolute": 0.015,
+    "alpha": 0.05,
+    "power": 0.8,
+    "srm_alpha": 0.001,
+    "margin_noninferiority_dollars": 0.1,
+    "error_noninferiority_absolute": 0.005,
+    "enrollment_days": 14,
+    "followup_days": 8,
+    "note": "Synthetic demonstration. Configuration locked before seeded generation; no real company data."
+  },
+  "as_of": 1769126400,
+  "quality": {
+    "assigned_counts": {
+      "challenge": 39677,
+      "control": 40323
+    },
+    "mature_counts": {
+      "control": 40323,
+      "challenge": 39677
+    },
+    "srm_p": 0.02237418142991291,
+    "mature_srm_p": 0.02237418142991291,
+    "orphan_events": 0,
+    "preassignment_events": 0,
+    "complete_followup": true,
+    "required_per_arm": 11472,
+    "passed": true
+  },
+  "metrics": {
+    "retained_d7": {
+      "control": 0.205168266250031,
+      "challenge": 0.22839428384202434,
+      "delta": 0.02322601759199333,
+      "lower": 0.017516485384950858,
+      "upper": 0.028935549799035804,
+      "p": 1.5485550726803752e-15
+    },
+    "margin": {
+      "control": 0.8947250948590134,
+      "challenge": 0.5361544471608236,
+      "delta": -0.3585706476981898,
+      "lower": -0.4072874293100666,
+      "upper": -0.309853866086313,
+      "p": 3.553749342727893e-47
+    },
+    "had_error": {
+      "control": 0.019988592118641967,
+      "challenge": 0.021826246944073393,
+      "delta": 0.0018376548254314257,
+      "lower": -0.00014561237635165062,
+      "upper": 0.003820922027214502,
+      "p": 0.06936077901736869
+    },
+    "purchased": {
+      "control": 0.07487042134761798,
+      "challenge": 0.08372608816190741,
+      "delta": 0.008855666814289426,
+      "lower": 0.0051104656882598656,
+      "upper": 0.012600867940318986,
+      "p": 3.5796132820507298e-06
+    }
+  },
+  "decision": "HOLD",
+  "rationale": "Retention improved, but contribution margin did not pass the predeclared non-inferiority gate. Redesign reward cost and retest.",
+  "segments": [
+    {
+      "channel": "creator_link",
+      "n": 12102,
+      "control": 0.20188097940651856,
+      "challenge": 0.2235888795282224,
+      "delta": 0.021707900121703844,
+      "lower": 0.007121523738769651,
+      "upper": 0.03629427650463804,
+      "p": 0.003535523191767384
+    },
+    {
+      "channel": "organic",
+      "n": 20029,
+      "control": 0.2205429054389977,
+      "challenge": 0.24077416766947454,
+      "delta": 0.020231262230476832,
+      "lower": 0.008565276241448094,
+      "upper": 0.03189724821950557,
+      "p": 0.0006763570610115477
+    },
+    {
+      "channel": "video",
+      "n": 47869,
+      "control": 0.19959334412216276,
+      "challenge": 0.22440050483803115,
+      "delta": 0.024807160715868387,
+      "lower": 0.017486289230587794,
+      "upper": 0.03212803220114898,
+      "p": 3.1062950370384095e-11
+    }
+  ],
+  "event_count": 143514
+}
